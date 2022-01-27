@@ -40,7 +40,7 @@ export const Gig = () => {
             color={"#0a033c"}
             textAlign="center"
           >
-            Fast switching between different tools
+            Fast switching <br /> between different tools
           </Text>
           <Text
             fontWeight={"300"}
@@ -62,22 +62,13 @@ export const Gig = () => {
           <Flex justifyContent="center" w="80px" h="80px" bg="#4c4e8e">
             <Image src={Card2} />
           </Flex>
-
           <Text
             fontWeight={"500"}
             fontSize="22px"
             color={"#0a033c"}
             textAlign="center"
           >
-            Sending
-          </Text>
-          <Text
-            fontWeight={"500"}
-            fontSize="22px"
-            color={"#0a033c"}
-            textAlign="center"
-          >
-            Sending large files safely
+            Sending <br /> large files safely
           </Text>
           <Text
             fontWeight={"300"}
@@ -85,7 +76,8 @@ export const Gig = () => {
             color={"#0a033c"}
             textAlign="center"
           >
-            Application lets users preview PDF documents on a range of devices
+            Application lets users preview PDF documents on a range of devices{" "}
+            <br />
             and supports password protection
           </Text>
         </VStack>
@@ -106,7 +98,7 @@ export const Gig = () => {
             color={"#0a033c"}
             textAlign="center"
           >
-            Make materials available to loved ones
+            Make materials <br /> available to loved ones
           </Text>
           <Text
             fontWeight={"300"}

@@ -11,7 +11,7 @@ import hero1 from "./assets/hero1.svg";
 
 function App() {
   return (
-    <Box bg="#f2f2f2" overflowX="hidden" p="20px">
+    <Box bg="#f2f2f2" minH="100vh" overflowX="hidden" p="20px">
       <Header />
       <Process />
       <Gig />
