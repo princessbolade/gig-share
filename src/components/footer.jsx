@@ -77,7 +77,7 @@ export const Footer = () => {
         src={Footer2}
         borderTopRadius="20px"
       />
-      <Container as={Stack} maxW={"1300px"} py={10} pt="200px">
+      <Container as={Stack} maxW={"1300px"} py={10} pt="100px">
         <Grid
           fontSize={"18px"}
           templateColumns="repeat(4, 1fr)"

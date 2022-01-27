@@ -10,11 +10,11 @@ export const Gig = () => {
     <Box my="100px" maxW={"1300px"} mx="auto">
       <Text
         className="fontR"
-        mb="100px"
+        mb="60px"
         fontWeight={"600"}
         fontSize="44px"
         color={"#0a033c"}
-        maxW={"500px"}
+        maxW={"550px"}
         textAlign="center"
         lineHeight={"1"}
         mx="auto"

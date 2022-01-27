@@ -6,7 +6,7 @@ import { ArrowForwardIcon } from "@chakra-ui/icons";
 
 export const Share = () => {
   return (
-    <Box maxWidth="1300px" mx="auto" my="100px">
+    <Box maxWidth="1300px" mx="auto" mt={"150px"} mb={"100px"}>
       <Flex alignItems="start" justifyContent={"space-between"}>
         <Flex pr="20px" pos="relative">
           <Image
@@ -125,7 +125,7 @@ export const Share = () => {
             your colleagues or even a video conference with just a couple of
             mouse clicks.
           </Text>
-          <Flex w="100%" pt="20px" alignItems="center">
+          <Flex w="100%" alignItems="center">
             <Button
               className="font"
               w="165px"

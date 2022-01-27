@@ -378,6 +378,7 @@
   max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
+  top: -100px;
 }
 
 .footer__copyright-logo {
