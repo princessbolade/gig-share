@@ -1,4 +1,4 @@
-import { ChevronDownIcon } from "@chakra-ui/icons";
+import { ChevronDownIcon, ArrowForwardIcon } from "@chakra-ui/icons";
 import {
   Box,
   Container,
@@ -24,7 +24,46 @@ const ListHeader = ({ children }) => {
 
 export const Footer = () => {
   return (
-    <Box className="font" position="relative" bg="#636c78" color={"#c7c7c7"}>
+    <Box
+      className="font"
+      position="relative"
+      bg="#636c78"
+      color={"#c7c7c7"}
+      mt={"250px"}
+    >
+      <Box className="content" style={{ opacity: 1 }}>
+        <Box className="footer__offer">
+          <Text
+            className="footer__offer-heading fontR"
+            fontSize={"44px"}
+            color={"#fff"}
+          >
+            Get started with our app?
+          </Text>
+          <Box data-style="dash2" className="footer__offer-btn-wrap">
+            <a href="/" className="btn mod--offer w-inline-block">
+              <Box className="btn-offer__arrow-wrap">
+                <ArrowForwardIcon
+                  loading="eager"
+                  width="16"
+                  color={"black"}
+                  alt=""
+                  className="btn-offer__arrow"
+                  display={"none"}
+                />
+                <ArrowForwardIcon
+                  loading="eager"
+                  width="10"
+                  height="10"
+                  color={"black"}
+                  alt=""
+                  className="btn-offer__arrow mod--over"
+                />
+              </Box>
+            </a>
+          </Box>
+        </Box>
+      </Box>
       <Image
         left={"80px"}
         position="absolute"
@@ -38,7 +77,7 @@ export const Footer = () => {
         src={Footer2}
         borderTopRadius="20px"
       />
-      <Container as={Stack} maxW={"1300px"} py={10} pt="100px">
+      <Container as={Stack} maxW={"1300px"} py={10} pt="200px">
         <Grid
           fontSize={"18px"}
           templateColumns="repeat(4, 1fr)"
@@ -89,9 +128,22 @@ export const Footer = () => {
             }}
           ></Flex>
           <Flex py={5} justifyContent="space-between">
-            <Text pt={6} fontSize={"18px"} textAlign={"center"}>
-              2021 Halo Lab. All rights reserved
-            </Text>
+            <Box
+              display={"flex"}
+              justifyContent={"start"}
+              alignItems={"center"}
+              textAlign={"center"}
+            >
+              <Image
+                src="https://uploads-ssl.webflow.com/61e04ec7cf303307d55e03ce/61e04ec7cf303317825e041c_logo-copyright.svg"
+                loading="eager"
+                alt=""
+                className="footer__copyright-logo"
+              />
+              <Text pt={6} ml={2} fontSize={"18px"} textAlign={"center"}>
+                2021 Halo Lab. All rights reserved
+              </Text>
+            </Box>
             <Text pt={6} fontSize={"18px"} textAlign={"center"}>
               English {<ChevronDownIcon />}
             </Text>

@@ -9,7 +9,7 @@ export const Header = () => {
   return (
     <Box
       bg="#636c78"
-      h="calc(100vh - 40px)"
+      h="800px"
       w="calc(100vw - 40px)"
       borderRadius={"45px"}
       position="relative"

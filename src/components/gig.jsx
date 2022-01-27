@@ -106,7 +106,7 @@ export const Gig = () => {
             color={"#0a033c"}
             textAlign="center"
           >
-            The app has improved support for popular PDF extensions such asFill
+            The app has improved support for popular PDF extensions such as Fill
             and Sign
           </Text>
         </VStack>

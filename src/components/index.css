@@ -284,3 +284,106 @@
   bottom: -24px;
   border-radius: 30px;
 }
+
+/* footer */
+
+.footer__offer {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 820px;
+  min-height: 200px;
+  margin: -20px auto 64px;
+  padding: 50px 55px 50px 80px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 20px;
+  background-image: url("https://uploads-ssl.webflow.com/61e04ec7cf303307d55e03ce/61e04ec7cf3033650c5e03eb_footer_illustr-04.svg");
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.footer__offer-heading {
+  max-width: 350px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.footer__offer-btn-wrap {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+  transition: all 400ms ease;
+  background-image: url("data:image/svg+xml,%3csvg width=%27100%25%27 height=%27100%25%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3crect width=%27100%25%27 height=%27100%25%27 fill=%27none%27 rx=%2716%27 ry=%2716%27 stroke=%27%23AF9D6DFF%27 stroke-width=%272%27 stroke-dasharray=%2710%27 stroke-dashoffset=%270%27 stroke-linecap=%27square%27/%3e%3c/svg%3e");
+}
+
+.btn-offer__arrow-wrap {
+  position: relative;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.btn-offer__arrow {
+  display: block;
+}
+
+/* .btn-offer__arrow.mod--over {
+  position: absolute;
+  left: -20px;
+} */
+
+.btn.mod--offer {
+  display: flex;
+  overflow: hidden;
+  min-width: 60px;
+  min-height: 60px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 25px 25px 0 rgb(78 73 65 / 20%);
+  transition-duration: 400ms;
+}
+
+.content {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer__copyright-logo {
+  margin-right: 14px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
