@@ -26,7 +26,13 @@ export const NavBar = () => {
         listStyleType={"none"}
         fontSize={"18px"}
       >
-        <li className="mr-24">Big Transfers</li>
+        <li
+          className="mr-24"
+          webkittransition={"all 200ms ease"}
+          transition={"all 200ms ease"}
+        >
+          Big Transfers
+        </li>
         <li className="mr-24">Processes</li>
         <li className="mr-24">Benefits</li>
         <li className="mr-24">Personal</li>

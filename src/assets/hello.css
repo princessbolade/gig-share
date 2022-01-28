@@ -1,0 +1,103 @@
+a:-webkit-any-link {
+  cursor: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #636c78;
+}
+
+::-webkit-scrollbar-track {
+  background: #e5e4e4;
+}
+
+input::-webkit-input-placeholder {
+  transition: 0.2s;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+input:-moz-placeholder {
+  transition: 0.2s;
+}
+
+input:focus:-moz-placeholder {
+  opacity: 0;
+}
+
+input::-moz-placeholder {
+  transition: 0.2s;
+}
+
+input:focus::-moz-placeholder {
+  opacity: 0;
+}
+
+input:-ms-input-placeholder {
+  transition: 0.2s;
+}
+
+input:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
+input {
+  -webkit-user-select: text;
+  /* Chrome, Opera, Safari */
+  -moz-user-select: text;
+  /* Firefox 2+ */
+  -ms-user-select: text;
+  /* IE 10+ */
+  user-select: text;
+  /* Standard syntax */
+}
+
+* {
+  outline: 0;
+  user-select: none;
+  -webkit-appearance: none;
+  -webkit-user-select: none;
+  -moz-appearance: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  appearance: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+[data-style="dash"] {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='45' ry='45' stroke='%23B2B7BDFF' stroke-width='2' stroke-dasharray='10' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+}
+
+[data-style="dash2"] {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='16' ry='16' stroke='%23AF9D6DFF' stroke-width='2' stroke-dasharray='10' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+}
+
+[data-style="dash2"]:hover .btn {
+  border-radius: 100px;
+}
+
+[data-style="dash2"]:hover .btn > div {
+  left: 40px;
+}
+
+[data-anim="login"]:hover > div > div {
+  right: -23px;
+}
+
+[data-anim="link"]:hover > div {
+  top: 25px;
+}
+
+[data-anim="start"]:hover > div > div {
+  top: 20px;
+}
+
+.work__card:hover .work__ico-anim {
+  top: -80px;
+}
